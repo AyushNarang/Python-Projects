@@ -11,7 +11,7 @@ with open("quotes.txt", "r") as file:
 quote = str(choice(message))
 
 # Put Email Address here
-my_email = "narangayush23@gmail.com"
+my_email = ""
 password = ""
 # Change to correct email provider
 with smtplib.SMTP("smtp.gmail.com") as connection:
