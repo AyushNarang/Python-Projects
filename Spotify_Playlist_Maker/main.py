@@ -3,8 +3,8 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-SPOTIFY_CLIENT_ID = "d4d8590029c5439cabfe8af6d2c13dd2"
-SPOTIFY_CLIENT_SECRET = "7f1986a0c36d400db5e38c879a92b509"
+SPOTIFY_CLIENT_ID = ""
+SPOTIFY_CLIENT_SECRET = ""
 SPOTIFY_REDIRECT_URI = "http://example.com"
 
 year = input("Enter the year of songs would you like in your playlist (YYYY-MM-DD): ")
