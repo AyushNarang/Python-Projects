@@ -12,7 +12,7 @@ quote = str(choice(message))
 
 # Put Email Address here
 my_email = "narangayush23@gmail.com"
-password = "czqj azfz miyi qozw"
+password = ""
 # Change to correct email provider
 with smtplib.SMTP("smtp.gmail.com") as connection:
     # Make Connection Secure
